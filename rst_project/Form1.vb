@@ -157,7 +157,7 @@ Public Class Form1
         Dim trackBarValue As Integer = TrackBar1.Value
 
         ' Menampilkan nilai di Label13
-        Label24.Text = trackBarValue.ToString()
+        Label24.Text = trackBarValue.ToString() + "#"
 
         Try
             Dim command As String = trackBarValue.ToString() ' Konversi nilai Slider ke String
